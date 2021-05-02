@@ -10,9 +10,9 @@
     </parent>
     <packaging>war</packaging>
     <groupId>com.example</groupId>
-    <artifactId>openshift-war-angular</artifactId>
+    <artifactId>openshift-springboot-angular-war</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>openshift-war-angular</name>
+    <name>openshift-springboot-angular-war</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
