@@ -59,10 +59,10 @@
                 <executions>
                     <execution>
                         <id>copy-resources</id>
-                        <phase>validate</phase>
+                        <phase>process-classes</phase>
                         <goals><goal>copy-resources</goal></goals>
                         <configuration>
-                            <outputDirectory>${project.basedir}/target/classes/resources/</outputDirectory >
+                            <outputDirectory>${project.build.directory}/classes/resources/</outputDirectory >
                             <resources>
                                 <resource>
                                     <directory>${project.basedir}/src/main/frontend/dist</directory>
