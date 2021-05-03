@@ -62,7 +62,7 @@
                         <phase>validate</phase>
                         <goals><goal>copy-resources</goal></goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/classes/resources/</outputDirectory >
+                            <outputDirectory>${project.basedir}/target/classes/resources/</outputDirectory >
                             <resources>
                                 <resource>
                                     <directory>${project.basedir}/src/main/frontend/dist</directory>
